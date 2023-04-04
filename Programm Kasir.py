@@ -2,7 +2,7 @@
 menu = {
     "1. Moachi Isi Kacang tanah \t" : 27000,
     "2. Moachi Isi Green tea \t" : 35000,
-    "3. Moachi Isi Coklat \t\t" : 30000,
+    "3. Moachi Isi Coklat \t\t" : 32000,
     "4. Moachi Isi Nanas \t\t" : 35000
 }
 
@@ -26,7 +26,7 @@ elif beli== str(2):
     bayar = jumlah * harga
 elif beli == str(3):
     macam = "Moachi Isi Coklat"
-    harga = 30000
+    harga = 32000
     bayar = jumlah * harga
 elif beli == str(4):
     macam = "Moachi Isi Nanas"
