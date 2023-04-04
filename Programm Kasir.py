@@ -13,9 +13,11 @@ print("Daftar Moachi \t\t\t Harga")
 for i in menu :
     print(i , menu[i])
 print("======================================")
-beli = input("Silahkan pilih list moachi yang mau dibeli : ")
-jumlah = int(input("Jumlah moachi : "))
-
+beli = input("Silahkan pilih list moachi yang ingin dibeli : ")
+jumlah = int(input("Jumlah moachi yang ingin dibeli : "))
+if jumlah < 0 :
+    print("Maaf jumlah moachi tidak valid")
+    exit
 #PENGKONDISIAN IF...ELSEIF...ELSE    
 if beli == str(1):
     macam = "Moachi Isi Kacang tanah"
@@ -38,7 +40,8 @@ elif beli == str(5):
     harga = 45000
     bayar = jumlah * harga
 else :
-    print("Moachi tersebut tidak tersedia")
+    print("Maaf, Moachi tersebut tidak tersedia")
+    exit
 
 print("\n")
 
