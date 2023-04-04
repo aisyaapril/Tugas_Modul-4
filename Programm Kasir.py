@@ -17,7 +17,7 @@ beli = input("Silahkan pilih list moachi yang ingin dibeli : ")
 jumlah = int(input("Jumlah moachi yang ingin dibeli : "))
 if jumlah < 0 :
     print("Maaf jumlah moachi tidak valid")
-    exit
+    exit()
 #PENGKONDISIAN IF...ELSEIF...ELSE    
 if beli == str(1):
     macam = "Moachi Isi Kacang tanah"
@@ -41,7 +41,7 @@ elif beli == str(5):
     bayar = jumlah * harga
 else :
     print("Maaf, Moachi tersebut tidak tersedia")
-    exit
+    exit()
 
 print("\n")
 
