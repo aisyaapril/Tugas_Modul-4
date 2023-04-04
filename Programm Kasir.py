@@ -3,7 +3,7 @@ menu = {
     "1. Moachi Isi Kacang tanah \t" : 27000,
     "2. Moachi Isi Green tea \t" : 35000,
     "3. Moachi Isi Coklat \t\t" : 32000,
-    "4. Moachi Isi Nastar \t\t" : 35000
+    "4. Moachi Isi Stroberi \t\t" : 35000
 }
 
 #PERULANGAN FOR
@@ -29,7 +29,7 @@ elif beli == str(3):
     harga = 32000
     bayar = jumlah * harga
 elif beli == str(4):
-    macam = "Moachi Isi Nastar"
+    macam = "Moachi Isi Stroberi"
     harga = 35000 
     bayar = jumlah * harga
 else :
